@@ -84,3 +84,20 @@ let newArr = [arr];
 let newArr2 = [...arr];
 let newArr3 = arr;
 console.log(newArr, newArr2, newArr3);
+
+
+let obj = {
+    name : ["balu","harshita"],
+    display : function(){
+        console.log(this.name[0]);
+    }
+}
+obj.display();
+
+
+
+// Object.create() function : which allows you to create an object my taking 
+// reference of ANY EXISTING object
+
+var teacher = Object.create(employee);
+console.log(teacher);
