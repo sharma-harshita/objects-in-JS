@@ -96,7 +96,7 @@ obj.display();
 
 
 
-// Object.create() function : which allows you to create an object my taking 
+// Object.create() function : which allows you to create an object by taking 
 // reference of ANY EXISTING object
 
 var teacher = Object.create(employee);
